@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "quipolon-quantize_jd262"
+name = "quipolon-cache_hit_attribution_timeline_score"
 version = "0.1.0"
 description = "解析时间标记，排列量化与稀疏化研究员·缓存命中率的归因的发生顺序，标出间隔异常与逆序事件"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://quipolon.github.io"
-Repository = "https://github.com/quipolon/quantize_jd262"
-Issues = "https://github.com/quipolon/quantize_jd262/issues"
+Repository = "https://github.com/quipolon/cache_hit_attribution_timeline_score"
+Issues = "https://github.com/quipolon/cache_hit_attribution_timeline_score/issues"
 
 [project.scripts]
-quantize_jd262 = "quantize_jd262:main"
+cache_hit_attribution_timeline_score = "cache_hit_attribution_timeline_score:main"
 
 [tool.setuptools]
-py-modules = ["quantize_jd262"]
+py-modules = ["cache_hit_attribution_timeline_score"]
